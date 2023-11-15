@@ -104,3 +104,29 @@ a.no-underline:hover {
     padding: 20px 20px;
   }
 }
+
+/* Skills Section */
+#skills {
+  margin-top: 40px;
+}
+
+.skills-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skill {
+  text-align: center;
+}
+
+.skill-icon {
+  width: 60px; /* Puedes ajustar el tamaño según sea necesario */
+  height: 60px;
+}
+
+.skill-name {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+}
