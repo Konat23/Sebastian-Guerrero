@@ -153,10 +153,13 @@ body {
   margin-top: 10px;
   padding: 5px 10px;
   background-color: #dc3545;
+  font-size: 1em;
   color: white;
   border: none;
   border-radius: 15px;
   cursor: pointer;
+  width: auto;
+  align-self: flex-start;
 }
 #project-header {
   display: flex;
