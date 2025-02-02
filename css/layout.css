@@ -119,9 +119,15 @@ body {
 /* Project Pages */
 .filters {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 10px;
   margin-bottom: 20px;
+}
+
+.main-filters, .secondary-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .filter {
@@ -132,9 +138,25 @@ body {
   user-select: none;
 }
 
+.main-filter {
+  background-color: #2b4a6b; /* Color azul para resaltar */
+  color: white;
+  font-weight: bold; /* Texto en negrita */
+}
+
 .filter.active {
   background-color: #007bff;
   color: white;
+}
+
+#reset-filters {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
 }
 #project-header {
   display: flex;

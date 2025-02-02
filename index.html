@@ -150,12 +150,20 @@
 
       <!-- Filtros de etiquetas -->
       <div class="filters">
-        <span class="filter" data-tag="data-science">Data Science</span>
-        <span class="filter" data-tag="programming">Programming</span>
-        <span class="filter" data-tag="electronics">Electronics</span>
-        <span class="filter" data-tag="computer-vision">Computer Vision</span>
-        <span class="filter" data-tag="nlp">NLP</span>        
-        <span class="filter" data-tag="games">Games</span>
+        <!-- Filtros principales -->
+        <div class="main-filters">
+          <span class="filter main-filter" data-tag="data-science">Data Science</span>
+          <span class="filter main-filter" data-tag="programming">Programming</span>
+          <span class="filter main-filter" data-tag="electronics">Electronics</span>
+        </div>
+        
+        <!-- Filtros secundarios -->
+        <div class="secondary-filters">
+          <span class="filter" data-tag="computer-vision">Computer Vision</span>
+          <span class="filter" data-tag="nlp">NLP</span>        
+          <span class="filter" data-tag="games">Games</span>
+        </div>
+        
         <button id="reset-filters">Reset Filters</button>
       </div>
 
